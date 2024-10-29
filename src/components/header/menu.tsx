@@ -62,7 +62,7 @@ export function Menu() {
             }}
           >
             <ol className="bg-base bg-op-70! backdrop-blur-md p-2 rounded-lg color-base text-base">
-              {loggedIn
+              {/* {loggedIn
                 ? (
                     <li onClick={logout}>
                       <span className="i-ph:sign-out-duotone inline-block" />
@@ -74,9 +74,9 @@ export function Menu() {
                       <span className="i-ph:sign-in-duotone inline-block" />
                       <span>Github 账号登录</span>
                     </li>
-                  )}
+                  )} */}
               <ThemeToggle />
-              <li onClick={() => window.open(Homepage)}>
+              {/* <li onClick={() => window.open(Homepage)}>
                 <span className="i-ph:github-logo-duotone inline-block" />
                 <span>Star on Github </span>
               </li>
@@ -97,7 +97,7 @@ export function Menu() {
                     src="https://img.shields.io/github/forks/ourongxing/newsnow?logo=github"
                   />
                 </a>
-              </li>
+              </li> */}
             </ol>
           </motion.div>
         </div>
